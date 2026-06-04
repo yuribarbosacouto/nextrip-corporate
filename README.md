@@ -39,6 +39,12 @@ Ou rode a esteira completa:
 npm.cmd run quality
 ```
 
+## Governanca
+
+- Guia de contribuicao: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Politica de seguranca: [SECURITY.md](SECURITY.md)
+- Templates de issue e pull request em [`.github`](.github)
+
 ## Publicar no GitHub Pages
 
 ```powershell
