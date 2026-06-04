@@ -6,8 +6,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
     "build": "tsc --noEmit && vite build",
     "build:pages": "tsc --noEmit && vite build --base=/nextrip-corporate/",
+    "audit": "npm audit --audit-level=moderate",
+    "quality": "npm run typecheck && npm run audit && npm run build:pages",
     "preview": "vite preview --host 127.0.0.1",
     "deploy": "npm run build:pages && gh-pages -d dist"
   },

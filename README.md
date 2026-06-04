@@ -1,6 +1,12 @@
 # NextTrip Corporate
 
+![CI](https://github.com/yuribarbosacouto/nextrip-corporate/actions/workflows/ci.yml/badge.svg)
+![CodeQL](https://github.com/yuribarbosacouto/nextrip-corporate/actions/workflows/codeql.yml/badge.svg)
+[![Demo](https://img.shields.io/badge/demo-online-2ea44f)](https://yuribarbosacouto.github.io/nextrip-corporate/)
+
 Site oficial da **NextTrip Corporate**, construído com React, TypeScript e Vite.
+
+[Demo online](https://yuribarbosacouto.github.io/nextrip-corporate/) · [Repositório](https://github.com/yuribarbosacouto/nextrip-corporate)
 
 ## O que entrega
 
@@ -17,6 +23,20 @@ Site oficial da **NextTrip Corporate**, construído com React, TypeScript e Vite
 ```powershell
 npm.cmd install
 npm.cmd run dev
+```
+
+## Verificações
+
+```powershell
+npm.cmd run typecheck
+npm.cmd run audit
+npm.cmd run build:pages
+```
+
+Ou rode a esteira completa:
+
+```powershell
+npm.cmd run quality
 ```
 
 ## Publicar no GitHub Pages
